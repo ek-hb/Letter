@@ -1,0 +1,59 @@
+body {
+  background-color: #64b6ac;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.userText {
+  width: 400px;
+  height: 100px;
+  border: 5px solid black;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #fad4c0;
+}
+.btn {
+  background-color: #fad4c0;
+  height: 50px;
+  border: 3px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0px 10px 0px;
+}
+.clear {
+  background-color: #fad4c0;
+  height: 50px;
+  border: 3px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+}
+.list {
+  width: 100%;
+  height: 200px;
+  list-style: none;
+  margin-top: 50px;
+  column-count: 11;
+  text-align: center;
+}
+
+.list li:nth-child(6n + 1),
+.list li:nth-child(6n + 2),
+.list li:nth-child(6n + 3),
+.list li:nth-child(6n + 4),
+.list li:nth-child(6n + 5),
+.list li:nth-child(6n + 6) {
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: #fad4c0;
+  margin-bottom: 5px;
+}
